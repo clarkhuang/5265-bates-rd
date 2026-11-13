@@ -6,7 +6,7 @@
   --muted: #5c6370;
   --line: #e6dcc3;
   --card: #fff;
-  --wall: #D1C7B8;
+  --wall: #E6DFD3;
   --trim: #EDEAE0;
   --cabinet: #D9D3C4;
 }
@@ -351,6 +351,41 @@ footer .fine {
   .hero h1 { font-size: 1.75rem; }
   .hero .in { padding: 1.8rem 1rem 1.3rem; }
 }
+
+.hero-actions { margin: .9rem 0 0; }
+.hero .btn-pdf {
+  background: transparent;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  margin-top: 0;
+}
+.hero .btn-pdf:hover { background: var(--gold); color: var(--navy); }
+.lede-actions { display: flex; align-items: center; gap: .8rem; flex-wrap: wrap; margin: 1rem 0 0; }
+.lede-actions .btn { margin-top: 0; }
+.roof-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin: 0 0 .85rem;
+}
+.roof-tab {
+  appearance: none;
+  background: var(--card);
+  border: 1px solid var(--line);
+  color: var(--navy);
+  font: 0.92rem/1.2 -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  padding: .5rem .95rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.roof-tab:hover { border-color: var(--navy); }
+.roof-tab.is-active {
+  background: var(--navy);
+  color: var(--cream);
+  border-color: var(--navy);
+}
+.roof-panel[hidden] { display: none; }
+
 @media print {
   nav.toc { display: none; }
   body { background: #fff; font-size: 11pt; }
