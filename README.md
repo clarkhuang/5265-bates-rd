@@ -4,4 +4,8 @@ Paint-concept visualization for the public listing at [5265 Bates Road](https://
 
 Live: https://clarkhuang.github.io/5265-bates-rd/
 
-Walls: Sherwin-Williams Accessible Beige (SW 7036). Trim and interior doors: Sherwin-Williams Alabaster (SW 7008). Kitchen and bath cabinets: Benjamin Moore Edgecomb Gray (HC-173). Wood ceilings and beams are left natural.
+Interiors: Sherwin-Williams Accessible Beige (SW 7036) walls, Alabaster (SW 7008) trim, Benjamin Moore Edgecomb Gray (HC-173) cabinets. Wood ceilings stay natural.
+
+Exterior: Alabaster siding, Tricorn Black trim, Iron Ore railings, and a dark charcoal-black architectural shingle roof. A VinylSafe dark-body alternate is also shown.
+
+Photos open on the concept. Drag a photo to see the original listing shot.

@@ -28,7 +28,7 @@ a { color: #7a5d00; text-decoration-color: var(--gold); }
   align-items: flex-end;
   color: var(--cream);
   background: #14213d center/cover no-repeat;
-  background-image: linear-gradient(180deg, rgba(20,33,61,.28) 8%, rgba(20,33,61,.88) 100%), url(img/00_aerial_view.webp);
+  background-image: linear-gradient(180deg, rgba(20,33,61,.28) 8%, rgba(20,33,61,.88) 100%), url(img/hero.webp);
 }
 .hero .in {
   position: relative;
@@ -224,7 +224,7 @@ tr.total td { font-weight: 600; background: #f4ead0; font-family: Georgia, serif
 .compare .clip {
   position: absolute;
   inset: 0 auto 0 0;
-  width: 50%;
+  width: 0%;
   overflow: hidden;
   border-right: 2px solid #fff;
 }
@@ -239,7 +239,7 @@ tr.total td { font-weight: 600; background: #f4ead0; font-family: Georgia, serif
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 50%;
+  left: 0%;
   width: 36px;
   transform: translateX(-50%);
   display: flex;
@@ -285,6 +285,43 @@ tr.total td { font-weight: 600; background: #f4ead0; font-family: Georgia, serif
   z-index: 2;
 }
 .hint { color: var(--muted); font-size: .88rem; margin: 0 0 .8rem; }
+
+.compare figcaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+.drag-hint {
+  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: .78rem;
+  color: var(--muted);
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.layout-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: #fff;
+  display: block;
+  margin: .6rem 0 1rem;
+}
+.note {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--gold);
+  border-radius: 6px;
+  padding: .85rem 1rem;
+  margin: 0 0 1rem;
+}
+.swatches-4 { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 800px) {
+  .swatches-4 { grid-template-columns: 1fr 1fr; }
+}
 footer {
   background: var(--navy);
   color: var(--gold);
